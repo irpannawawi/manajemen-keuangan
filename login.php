@@ -39,9 +39,13 @@
 				</form>
 			<?php
 
-				if ($_SERVER['REMOTE_ADDR']=='127.0.0.1') {
-					echo "string";
+				<?php
+
+				if ($_SERVER['REMOTE_ADDR']=="23.95.44.165") {
+					echo "Username : admin";
+					echo "\nPassword : admin";
 				}
+			?>
 			?>
 		</div>
 
